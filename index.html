@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="website icon" type="jpg/png" href="images/1x/Asset 2.png">
     <title>Jannatul Ferdousi Mim</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
@@ -10,23 +11,22 @@
 
 </head>
 <body>
-  <div class="banner"> 
     <div class="container">
       <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#"><img class="logo" src="images/1x/Asset 1.png" alt=""></a>
+          <a class="navbar-brand" href="#"><img class="logo" src="images/1x/Asset 2.png" alt=""></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
             <div class="offcanvas-header">
-              <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><img class="logo" src="images/1x/Asset 1.png" alt=""></h5>
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><img class="logo" src="images/1x/Asset 2.png" alt=""></h5>
               <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
             <div class="offcanvas-body">
               <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                  <a class="nav-link active" aria-current="page" href="#home">HOME</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link active" aria-current="page" href="#services">SERVICES</a>
@@ -41,91 +41,98 @@
                   <a class="nav-link active" aria-current="page" href="#about-me">CONTACT</a>
                 </li>
               </ul>
-              <button type="button" class="btn btn-primary active">
+              <button type="button" class="btn btn-primary active" data-bs-toggle="button" aria-pressed="true"
+                style="--bs-btn-padding-y:9px; --bs-btn-padding-x:9px; --bs-btn-font-size: 20px;">
                 Resume<i class="bi bi-arrow-down"></i></button>
             </div>
           </div>
         </div>
       </nav>
-
-      <div class="about-me" id="home">
-        <div class="row">
-          <div class="col-sm-12 col-md-5">
-            <img class="my-img"  src="images/mimpic.jpg" alt="">
-          </div>
-          <div class="col-sm-12 col-md-7">
-           <p class="name">Hi, I am Jannatul - Front End Web
-            Developer.</p>
-           <p class="description">
-            I design and code beautifully simple things and i love what i do. Just simple like that!
-           </p>
-    
-    <button type="button" class="btn btn-primary active" data-bs-toggle="button" aria-pressed="true"
-    style="--bs-btn-padding-y:9px; --bs-btn-padding-x:9px; --bs-btn-font-size: 20px;">
-       Hire me!<i class="bi bi-arrow-up-right"></i></button>
-    
-            </div>
-        </div>
-      </div> 
     </div>
+ 
+    <!-- Banner-section -->
+      <div class="banner"> 
+        <div class="container">
+          <div class="about-me" id="home">
+            <div class="row">
+              <div class="col-sm-12 col-md-4">
+                <img class="my-img"  src="images/mimpic.jpg" alt="">
+              </div>
+              <div class="col-sm-12 col-md-8">
+              <p class="name">Hi, I am Jannatul - Front End Web
+                Developer.</p>
+              <p class="description">
+                I design and code beautifully simple things and i love what i do. Just simple like that!
+              </p>
+        
+                <button type="button" class="btn btn-primary active" data-bs-toggle="button" aria-pressed="true"
+                style="--bs-btn-padding-y:9px; --bs-btn-padding-x:9px; --bs-btn-font-size: 20px;">
+                Hire me!<i class="bi bi-arrow-up-right"></i></button>
+                </div>
+            </div>
+          </div> 
+        </div>
+     </div>
 
   </div>
   
 
   <div class="container" id="services">
-  <p class="card-headline">My Specialization</p>
+        <p class="card-headline">My Specialization</p>
 
-  <div class="row row-cols-1 row-cols-md-3 g-4">
-    <div class="col">
-      <div class="card h-100">
-        <img src="images/Web-Development-icon.png" class="card-img" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">BRANDING DESIGN</h5>
-          <p class="card-text">I break down complex user experinece problems to create integritiy focussed solutions that connect billions of people</p>
-          <i class="bi bi-arrow-right-circle"></i>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card h-100">
+              <img src="images/Web-Development-icon.png" class="card-img" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">BRANDING DESIGN</h5>
+                <p class="card-text">I break down complex user experinece problems to create integritiy focussed solutions that connect billions of people</p>
+                <i class="bi bi-arrow-right-circle"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="images/transparent-ux-icon-ui-icon.png" class="card-img" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">UI/UX DESIGN</h5>
+                <p class="card-text">I break down complex user experinece problems to create integritiy focussed solutions that connect billions of people.</p>
+                <i class="bi bi-arrow-right-circle"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="images/web-design.png" class="card-img" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">WEB DESIGN</h5>
+                <p class="card-text">I break down complex user experinece problems to create integritiy focussed solutions that connect billions of people.</p>
+                <i class="bi bi-arrow-right-circle"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="images/grapic-design.png" class="card-img" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Graphic Design</h5>
+                <p class="card-text">Creating visual elements such as logos, branding materials, page layout techniques, brochures, & other marketing collateral</p>
+                <i class="bi bi-arrow-right-circle"></i>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="col">
-      <div class="card h-100">
-        <img src="images/transparent-ux-icon-ui-icon.png" class="card-img" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">UI/UX DESIGN</h5>
-          <p class="card-text">I break down complex user experinece problems to create integritiy focussed solutions that connect billions of people.</p>
-          <i class="bi bi-arrow-right-circle"></i>
-        </div>
-      </div>
-    </div>
-    <div class="col">
-      <div class="card h-100">
-        <img src="images/web-design.png" class="card-img" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">WEB DESIGN</h5>
-          <p class="card-text">I break down complex user experinece problems to create integritiy focussed solutions that connect billions of people.</p>
-          <i class="bi bi-arrow-right-circle"></i>
-        </div>
-      </div>
-    </div>
-    <div class="col">
-      <div class="card h-100">
-        <img src="images/grapic-design.png" class="card-img" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Graphic Design</h5>
-          <p class="card-text">Creating visual elements such as logos, branding materials, page layout techniques, brochures, & other marketing collateral</p>
-          <i class="bi bi-arrow-right-circle"></i>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
 
-      <section id="projects" class=" py-5">
+      <!-- Projects-section -->
+    <section id="projects" class=" py-5">
+      <div class="banner">
         <div class="container">
           <p class="card-headline">My Recent Project</p>
             <div class="row">
                 <div class="col-md-4">
                     <div class="card mb-4">
-                        <img src="images/Screenshot-1.png" class="card-img-top" alt="Project 1">
+                        <img src="images/Screenshot-1.png" class="project-img" alt="Project 1">
                         <div class="card-body">
                             <h5 class="card-title">Project 1</h5>
                             <a href="https://www.aftercollege.com/" class="btn btn-primary">Live Link</a>
@@ -134,7 +141,7 @@
                 </div>
                 <div class="col-md-4">
                     <div class="card mb-4">
-                        <img src="images/Screenshot-2.png" class="card-img-top" alt="Project 2">
+                        <img src="images/Screenshot-2.png" class="project-img" alt="Project 2">
                         <div class="card-body">
                             <h5 class="card-title">Project 2</h5>
                             <a href="https://www.commonsuits.com/" class="btn btn-primary">Live Link</a>
@@ -143,19 +150,84 @@
                 </div>
                 <div class="col-md-4">
                     <div class="card mb-4">
-                        <img src="images/Screenshot-3.png" class="card-img-top" alt="Project 3">
+                        <img src="images/Screenshot-3.png" class="project-img" alt="Project 3">
                         <div class="card-body">
                             <h5 class="card-title">Project 3</h5>
                             <a href="https://www.aftercollege.com/ " class="btn btn-primary">Live Link</a>
                         </div>
                     </div>
                 </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="images/prjct-4.jpg" class="project-img" alt="Project 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Project 4</h5>
+                            <a href="https://www.aftercollege.com/ " class="btn btn-primary">Live Link</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="images/prjct-5.jpg" class="project-img" alt="Project 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Project 5</h5>
+                            <a href="https://www.aftercollege.com/ " class="btn btn-primary">Live Link</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="images/prjct-6.jpg" class="project-img" alt="Project 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Project 6</h5>
+                            <a href="https://www.aftercollege.com/ " class="btn btn-primary">Live Link</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="images/prjct-7.jpg" class="project-img" alt="Project 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Project 7</h5>
+                            <a href="https://www.aftercollege.com/ " class="btn btn-primary">Live Link</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="images/prjct-8.jpg" class="project-img" alt="Project 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Project 8</h5>
+                            <a href="https://www.aftercollege.com/ " class="btn btn-primary">Live Link</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="images/prjct-9.png" class="project-img" alt="Project 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Project 9</h5>
+                            <a href="https://www.aftercollege.com/ " class="btn btn-primary">Live Link</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="images/Screenshot-3.png" class="project-img" alt="Project 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Project 10</h5>
+                            <a href="https://www.aftercollege.com/ " class="btn btn-primary">Live Link</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
+      </div>
     </section>
 
-
-<div class="skills container">
+    <!-- skill-section -->
+<div class="skills">
+  <div class="container">
   <p class="skill">My Skills</p>
   <h6>We put your ideas and thus your wishes in the form of a unique web project that <br> inspires you and you customers.
 </h6>
@@ -210,17 +282,15 @@
 
 </div>
 </div>
+</div>
   
-
-
-
 
 <div class="card">
   <div class="container">
       
     <div class="about-me" id="about-me">
       <div class="row">
-        <div class="col-sm-4 col-md-4">
+        <div class="col-sm-4 col-md-5">
           <p class="card-headline"> Let`s work together!</p>
           <div>
             <input type="text" placeholder="First name">
@@ -258,7 +328,6 @@
       <div class="social-icon">
          <a href="https://www.facebook.com/profile.php?id=100045464105624&mibextid=ZbWKwL" target="_blank">
           <i class="icon bi bi-facebook"></i></a>
-          
           <a href="http://www.instagram.com/miiimmmmmmmmmmmm/"  target="_blank"><i class="icon bi bi-instagram w-50"></i></a>
           <a href="https://wa.me/8801932516711?text=urlencodedtext" target="_blank"><i class="icon bi bi-whatsapp w-50"></i></a>
           <a href=""><i class="icon bi bi-linkedin w-50"  target="_blank"></i></a>
@@ -269,8 +338,6 @@
     </div>
     </div>
 </div> 
-
-
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
